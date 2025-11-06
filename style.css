@@ -118,4 +118,18 @@ footer {
         display: block;
         margin: 10px auto;
     }
+} /* New Style for Images */
+.food-image {
+    width: 100%; /* item box ရဲ့ အကျယ်အတိုင်း ဖြန့်လိုက်ပါ */
+    height: auto; /* အချိုးမပျက်အောင် */
+    border-radius: 4px;
+    margin-bottom: 10px;
+    object-fit: cover; /* ပုံအချိုးအစားကို ထိန်းညှိခြင်း */
 }
+
+/* item ကို ပုံနဲ့အတူ လှပအောင် ထပ်မံပြင်ဆင်ခြင်း */
+.item {
+    /* ... ကျန်တဲ့ code တွေ ရှိပြီးသားပါ ... */
+    overflow: hidden; /* ပုံဘောင်အပြင် ထွက်မသွားအောင် */
+}
+
